@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup><Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration><Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform><ProjectGuid>{1D2D2C3B-A24C-4C62-876A-1D70BFEB0691}</ProjectGuid><OutputType>Library</OutputType><RootNamespace>Biblioteca.Datos</RootNamespace><AssemblyName>Biblioteca.Datos</AssemblyName><TargetFrameworkVersion>v4.8</TargetFrameworkVersion></PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' "><OutputPath>bin\Debug\</OutputPath><DebugSymbols>true</DebugSymbols><DebugType>full</DebugType><Optimize>false</Optimize></PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' "><OutputPath>bin\Release\</OutputPath><Optimize>true</Optimize><DebugType>pdbonly</DebugType></PropertyGroup>
+  <ItemGroup><Reference Include="System" /><Reference Include="System.Core" /><Reference Include="System.Data" /><Reference Include="System.Configuration" /></ItemGroup>
+  <ItemGroup><ProjectReference Include="..\Biblioteca.Entidades\Biblioteca.Entidades.csproj"><Project>{421959F5-A7BE-4BB4-9E3B-341275448646}</Project><Name>Biblioteca.Entidades</Name></ProjectReference></ItemGroup>
+  <ItemGroup><Compile Include="SqlDatabase.cs" /><Compile Include="Repositorios.cs" /></ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup><Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration><Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform><ProjectGuid>{3BF14B67-4D8B-4664-937C-9A616C84AC4A}</ProjectGuid><OutputType>WinExe</OutputType><RootNamespace>Biblioteca.Presentacion</RootNamespace><AssemblyName>Biblioteca.Presentacion</AssemblyName><TargetFrameworkVersion>v4.8</TargetFrameworkVersion><StartupObject>Biblioteca.Presentacion.Program</StartupObject></PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' "><OutputPath>bin\Debug\</OutputPath><DebugSymbols>true</DebugSymbols><DebugType>full</DebugType><Optimize>false</Optimize></PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' "><OutputPath>bin\Release\</OutputPath><Optimize>true</Optimize><DebugType>pdbonly</DebugType></PropertyGroup>
+  <ItemGroup><Reference Include="System" /><Reference Include="System.Core" /><Reference Include="System.Data" /><Reference Include="System.Drawing" /><Reference Include="System.Windows.Forms" /><Reference Include="System.Configuration" /></ItemGroup>
+  <ItemGroup><ProjectReference Include="..\Biblioteca.Entidades\Biblioteca.Entidades.csproj"><Project>{421959F5-A7BE-4BB4-9E3B-341275448646}</Project><Name>Biblioteca.Entidades</Name></ProjectReference><ProjectReference Include="..\Biblioteca.Datos\Biblioteca.Datos.csproj"><Project>{1D2D2C3B-A24C-4C62-876A-1D70BFEB0691}</Project><Name>Biblioteca.Datos</Name></ProjectReference><ProjectReference Include="..\Biblioteca.Negocio\Biblioteca.Negocio.csproj"><Project>{87C82771-599E-49D7-A30C-8EBB1E8C4550}</Project><Name>Biblioteca.Negocio</Name></ProjectReference></ItemGroup>
+  <ItemGroup><Compile Include="Program.cs" /><Compile Include="UiHelpers.cs" /><Compile Include="CrudForms.cs" /><Compile Include="OperationalForms.cs" /><Compile Include="MainForm.cs" /></ItemGroup>
+  <ItemGroup><None Include="App.config" /></ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

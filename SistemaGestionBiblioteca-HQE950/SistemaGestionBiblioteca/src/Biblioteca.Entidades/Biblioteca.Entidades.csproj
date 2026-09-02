@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup><Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration><Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform><ProjectGuid>{421959F5-A7BE-4BB4-9E3B-341275448646}</ProjectGuid><OutputType>Library</OutputType><RootNamespace>Biblioteca.Entidades</RootNamespace><AssemblyName>Biblioteca.Entidades</AssemblyName><TargetFrameworkVersion>v4.8</TargetFrameworkVersion></PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' "><OutputPath>bin\Debug\</OutputPath><DebugSymbols>true</DebugSymbols><DebugType>full</DebugType><Optimize>false</Optimize></PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' "><OutputPath>bin\Release\</OutputPath><Optimize>true</Optimize><DebugType>pdbonly</DebugType></PropertyGroup>
+  <ItemGroup><Reference Include="System" /><Reference Include="System.Core" /></ItemGroup>
+  <ItemGroup><Compile Include="Entidades.cs" /></ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
