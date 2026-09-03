@@ -4,6 +4,9 @@
 
 ## Proyecto final - Programación Avanzada
 
+**Sindy Yulieth Arroyave Pérez**
+**Juan Carlos Alonso Rincon**
+
 **Aplicación de escritorio con C#, Windows Forms y SQL Server**
 
 **Informe técnico y funcional**
