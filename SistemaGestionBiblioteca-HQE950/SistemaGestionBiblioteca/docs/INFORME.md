@@ -12,6 +12,10 @@
 
 **Informe técnico y funcional**
 
+**Docente: Veronica Castro Munar**
+
+**Enlace al repositorio oficial en GitHub**
+
 Versión 1.0  
 2026
 
