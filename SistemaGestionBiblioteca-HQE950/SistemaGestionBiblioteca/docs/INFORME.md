@@ -15,6 +15,7 @@
 **Docente: Veronica Castro Munar**
 
 **Enlace al repositorio oficial en GitHub**
+https://github.com/sindy-arroyave/GESTIOON-BIBLIOTECA-2026
 
 Versión 1.0  
 2026
