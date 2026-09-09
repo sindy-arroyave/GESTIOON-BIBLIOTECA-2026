@@ -18,8 +18,10 @@
 
 https://github.com/sindy-arroyave/GESTIOON-BIBLIOTECA-2026
 
+**Corporacion Unificada Nacional de Educacion Superior CUN**
+
 Versión 1.0  
-2026
+Septiembre 2026
 
 </div>
 
